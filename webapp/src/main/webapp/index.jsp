@@ -1,24 +1,33 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>Register v2.0</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sample Deployment</title>
+  <style>
+    body {
+      color: #ffffff;
+      background-color: #0188cc;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 500%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 200%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div align="center">
+    <h1>Congratulations v1.0</h1>
+    <h2>This application was deployed using AWS ECS, EKS.</h2>
+    <p>For next steps, read the <a href="https://aws.amazon.com/ko">AWS Management Console</a>.</p>
+    <p><img src="images/two-rabbit.jpg" alt="두마리 토끼" height="350"></p>
   </div>
-
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-</form>
+</body>
+</html>
