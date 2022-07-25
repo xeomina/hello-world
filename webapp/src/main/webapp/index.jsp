@@ -25,6 +25,7 @@
 <body>
   <div align="center">
     <h1>Congratulations v7.0</h1>
+    <br>
     <h2>This application was deployed using AWS ECS, EKS.</h2>
     <p>For next steps, read the <a href="https://aws.amazon.com/ko">AWS Management Console</a>.</p>
     <p><img src="images/two-rabbit.jpg" alt="두마리 토끼" height="350"></p>
