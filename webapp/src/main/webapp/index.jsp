@@ -24,7 +24,7 @@
 </head>
 <body>
   <div align="center">
-    <h1>Congratulations v1.0</h1>
+    <h1>축하합니다. v1.0</h1>
     <br>
     <h2>This application was deployed using AWS ECS, EKS.</h2>
     <p>For next steps, read the <a href="https://aws.amazon.com/ko">AWS Management Console</a>.</p>
